@@ -1,1 +1,7 @@
-package basic_go_fiber_microservices
+package main
+
+import "github.com/odealidj/basic-go-fiber-microservices/app"
+
+func main()  {
+	app.StartApp()
+}
